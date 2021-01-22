@@ -1,0 +1,155 @@
+:root{
+    --cBlack: #373737;
+    --cBackground: #f4f4f4; 
+    --aBackground: (233, 227, 227, 0.856); 
+    --bBackground: rgb(233, 220, 220); 
+
+
+}
+
+body {
+    background-color: rgba(233, 227, 227, 0.856); 
+    color: #373737;
+    margin: auto; 
+    max-width: 1000px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: auto;
+    border: var(--cBlack); 
+}
+
+a {
+    font-style: normal; 
+    font-family: arial; 
+    background-color: var(--cBackground);
+    border: var(--cBlack);
+    color: var(--cBlack); 
+    padding: 20px; 
+    margin: 10px 0 30px 0; 
+    text-align: center;
+    display: inline-block; 
+    font-size: 110%;
+    max-width: 1000px; 
+    box-shadow: 1px 1px 2px rgb(63, 61, 61), 1px 2px 4px grey;
+}
+
+
+
+.aMain:hover, a:hover {
+    text-decoration: underline;
+}
+
+
+.aMain {
+    font-style: normal; 
+    font-family: arial; 
+    background-color: var(--cBackground);
+    border: var(--cBlack);
+    color: var(--cBlack); 
+    padding: 5px; 
+    margin: 10px 0 0 0; 
+    text-align: center;
+    display: inline-block; 
+    font-size: 18px;
+    max-width: 1000px; 
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: var(--aBackground);
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header, h1{
+    text-decoration-style: solid; 
+}
+
+.pA {
+    font-style: oblique
+}
+
+article {
+    font-style: normal;
+    font-family: Arial; 
+    line-height: 20px; 
+    background-color: var(--cBackground); 
+    color: #373737;
+    margin: auto;
+    padding: 10px 20px; 
+    text-align: center;
+    max-width: 1000px;
+    display: block; 
+    box-sizing: border-box; 
+    box-shadow: 0 2px 4px rgb(63, 61, 61), 0 4px 8px grey;  
+    margin-bottom: 40px;
+    height: auto;
+}
+
+li , a {
+    text-align: left;
+}
+
+ figure {
+    width: 50%;
+    height: auto;
+    margin: 15px;
+    float: right;
+    overflow: hidden;
+}
+
+.design {
+    float: right;
+}
+
+
+footer {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer p {
+    font-style: oblique;
+    font-size: 12px;
+    font-family: Arial;
+
+}
+
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+
+
+.dark,
+    .dark * {
+        --cBackground: #222;
+        color: #e6e6e6;
+        border-color: #e6e6e6;
+
+        --cBlack: #373737;
+        --cBackground: #222; 
+        --aBackground: (233, 227, 227, 0.856); 
+        --bBackground: rgb(233, 220, 220); 
+    }
